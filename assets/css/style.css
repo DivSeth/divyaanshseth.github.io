@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+  }
+  nav {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e1e4e8;
+    padding-bottom: 0.5rem;
+  }
+  nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #0366d6;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  h1, h2, h3 {
+    color: #333;
+    margin-top: 1.5rem;
+  }
+  footer {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+  }
