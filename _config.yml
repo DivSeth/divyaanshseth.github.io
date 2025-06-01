@@ -3,12 +3,13 @@ description: "Resume and Portfolio of Divyaansh Seth"
 baseurl: ""  # no trailing slash
 url: "https://divseth.github.io"  # your GitHub Pages URL
 
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin: "contrast"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
 
 masthead: true
 navigation: "_data/navigation.yml"
