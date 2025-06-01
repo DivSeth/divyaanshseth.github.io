@@ -1,67 +1,94 @@
 ---
-layout: default
+layout: single
 title: "Resume"
+permalink: /resume/
 ---
 
 # Divyaansh Seth
 
-**171 Fearing Street, Amherst, MA 01003**  
-**Phone:** 413‑275‑7143  
-**Email:** divyaanshset@umass.edu  
-**LinkedIn:** [linkedin.com/in/divyaanshseth](https://linkedin.com/in/divyaanshseth)
+<p class="lead">Sophomore at UMass Amherst | Data Analytics & Full-Stack Enthusiast</p>
+
+<div class="callout">
+  <div class="contact-flex">
+    <div><strong>Location:</strong> Amherst, MA</div>
+    <div><strong>Phone:</strong> 413-275-7143</div>
+    <div><strong>Email:</strong> <a href="mailto:divyaanshset@umass.edu">divyaanshset@umass.edu</a></div>
+  </div>
+</div>
+
+---
 
 ## Education
 
-**University of Massachusetts Amherst** — BS in Computer Science & Mathematics (Statistics & Data Science concentration), Minor in Business  
-_Amherst, MA | May 2027_  
-• GPA: 3.6/4.0  
-• Relevant Coursework: Data Structures, Algorithms, Computer Systems, Discrete Math, OOP, Multivariate Calculus, Linear Algebra, Programming Methodologies, Statistics & Reasoning Under Uncertainty  
-• Honors: Chancellor’s Scholar, Dean’s List fileciteturn1file1
+### University of Massachusetts Amherst  
+_BS in Computer Science & Mathematics (Statistics & Data Science), Minor in Business_  
+**Sept 2023 - May 2027**    GPA: 3.6/4.0  
+**Coursework:** Data Structures • Algorithms • Discrete Math • OOP • Linear Algebra • Statistics • Multivariate Calculus 
+**Honors:** Chancellor’s Scholar • Dean’s List  
 
-**Amity International School** — High School Diploma  
-_New Delhi, India | May 2023_  
-• Head of Technology (Student Body), Head of Graphics (Student Newspaper)  
-• SAT Score: 1550 fileciteturn1file1
+{: .panel}
+
+### Amity International School  
+_High School Diploma_  
+**May 2023**  
+• Head of Technology & Head of Graphics  
+• SAT Score: 1550  
+
+{: .panel}
+
+---
 
 ## Work Experience
 
-**Grant Thornton Bharat LLP** — Data Analytics & Consulting Intern, Public Sector Team  
-_New Delhi | Jun 2024 – Aug 2024_  
-- Analyzed impact of key government schemes on India’s multidimensional poverty index, identifying top-performing sectors.  
-- Recommended strategic budget realignments toward India’s USD 30 trillion economy goal by 2047.  
-- Built polynomial regression models in Python and created interactive PowerBI dashboards to visualize results. fileciteturn1file1
+### Grant Thornton Bharat LLP  
+*Data Analytics & Consulting Intern*  
+**Jun 2024 – Aug 2024**, New Delhi  
+- Performed impact analysis of key government schemes on India’s Multidimensional Poverty Index (MPI).  
+- Built polynomial regression models in Python; created interactive PowerBI dashboards to visualize results.  
+- Recommended strategic budget realignments toward India’s USD 30 trillion GDP goal by 2047.  
 
-**Ashoka University (BharatSim Group)** — Data Science Intern  
-_New Delhi | Oct 2022 – Apr 2023_  
-- Shadowed development of a distributed, multi-scale population simulation framework.  
-- Identified statistical correlations between real-world and synthetic data to validate simulation metrics. fileciteturn1file1
+{: .panel}
 
-**IBM New Delhi** — Student Intern  
-_New Delhi | Oct 2021 – Nov 2021_  
-- Collaborated on design thinking and prototyping with software teams; built mobile app mockups in Figma and Adobe XD.  
-- Applied machine learning fundamentals: data cleaning, feature selection, and tuning model weights. fileciteturn1file1
+### Ashoka University (BharatSim Group)  
+*Data Science Intern*  
+**Oct 2022 – Apr 2023**, New Delhi  
+- Contributed to the development of a distributed, multi-scale population simulation framework.  
+- Validated synthetic data metrics by correlating real-world and simulated datasets.  
 
-**Expressify** — Co-Founder  
-_New Delhi | Feb 2021 – Nov 2022_  
-- Co-created an NLP-based web app for English communication, featuring phrase galleries and real-time pronunciation checks.  
-- Led team to national Toycathon win (top 28 globally) out of 20,000 teams. fileciteturn1file1
+{: .panel}
+
+### IBM New Delhi  
+*Student Intern*  
+**Oct 2021 – Nov 2021**, New Delhi  
+- Created mobile app mockups using Figma and Adobe XD.  
+- Applied machine learning fundamentals: data cleaning, feature selection, and parameter tuning.  
+
+{: .panel}
+
+### Expressify  
+*Co-Founder*  
+**Feb 2021 – Nov 2022**, New Delhi  
+- Developed an NLP-based web app for English learning, featuring phrase galleries and real-time pronunciation checks.  
+- Led the team to a Top-28 finish (out of 20,000) in the national Toycathon challenge.  
+
+{: .panel}
+
+---
 
 ## Extracurriculars & Clubs
 
-**BUILD UMass Amherst** — Product Manager  
-_Sep 2023 – May 2024_  
-- Led an 8‑member team to build a MERN‑stack site for Amherst Education Foundation, raising $25K+ in donations. fileciteturn1file1
+### BUILD UMass 
+*Product Manager*  
+**Sep 2023 – May 2024**  
+- Led an eight-member team to build a MERN-stack fundraising site for Amherst Education Foundation, raising \$25 K+ in donations.  
 
-## Research & Projects
+{: .panel}
 
-**MPI Reduction Report**  
-- Consulting analysis on reducing India’s Marginal Poverty Index across 12 schemes.  
+---
 
-**Crystal Channeling in Carbon Nanotubes**  
-- Proposed T‑9 Beamline experiment at CERN; placed 7th globally at BL4S Challenge. fileciteturn1file0
+## Skills & Tools
 
-**Stable Matching Visualizer**  
-- TypeScript web app illustrating Gale–Shapley algorithm.  
-
-**Crypto Bot Client**  
-- C program solving TCP‑based cryptographic challenges.
+- **Languages:** Python • C • JavaScript • TypeScript  
+- **Frameworks:** React • Node.js • Flask  
+- **Data & Analytics:** Pandas • NumPy • scikit-learn • PowerBI  
+- **Other:** Git • Docker • Jekyll  

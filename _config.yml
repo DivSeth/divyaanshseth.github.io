@@ -1,5 +1,46 @@
 title: "Divyaansh Seth"
 description: "Resume and Portfolio of Divyaansh Seth"
-baseurl: ""
-url: "https://divseth.github.io"
-theme: minima
+baseurl: ""  # no trailing slash
+url: "https://divseth.github.io"  # your GitHub Pages URL
+
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "contrast"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+masthead: true
+navigation: "_data/navigation.yml"
+
+# Author / profile settings
+author:
+  name: "Divyaansh Seth"
+  avatar: "/assets/images/profile.jpg"
+  location: "Amherst, MA"
+  email: "divyaanshset@umass.edu"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/divyaanshseth"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/divseth"
+
+# Include custom CSS after theme styles
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      extra_css:
+        - "/assets/css/custom.css"
+
+# Build settings
+markdown_ext: "md"
+paginate: false
+
+# Exclude unneeded files from build
+exclude:
+  - Gemfile.lock
+  - README.md
