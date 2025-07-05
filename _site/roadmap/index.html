@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Projects - Divyaansh Seth</title>
-<meta name="description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
+<!-- begin _includes/seo.html --><title>Learning Roadmap - Divyaansh Seth</title>
+<meta name="description" content="A visual journey of my growth as a software engineer — across systems, AI, and deployment.">
 
 
   <meta name="author" content="Divyaansh Seth">
@@ -21,18 +21,15 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Divyaansh Seth">
-<meta property="og:title" content="Projects">
-<meta property="og:url" content="http://localhost:4000/projects/">
+<meta property="og:title" content="Learning Roadmap">
+<meta property="og:url" content="http://localhost:4000/roadmap/">
 
 
-  <meta property="og:description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/tech-bg.jpg">
+  <meta property="og:description" content="A visual journey of my growth as a software engineer — across systems, AI, and deployment.">
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/roadmap.jpg">
 
 
 
@@ -40,7 +37,10 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/projects/">
+
+
+
+<link rel="canonical" href="http://localhost:4000/roadmap/">
 
 
 
@@ -148,18 +148,18 @@
 
 
 <div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/tech-bg.jpg');"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/roadmap.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Projects
+          Learning Roadmap
 
         
       </h1>
       
-        <p class="page__lead">Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.
+        <p class="page__lead">A visual journey of my growth as a software engineer — across systems, AI, and deployment.
 </p>
       
       
@@ -168,7 +168,7 @@
       
         <p>
         
-          <a href="https://github.com/DivSeth" class="btn btn--light-outline btn--large">View GitHub</a>
+          <a href="https://github.com/DivSeth" class="btn btn--light-outline btn--large">GitHub</a>
         
         </p>
       
@@ -181,82 +181,118 @@
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Projects">
-    <meta itemprop="description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
+    <meta itemprop="headline" content="Learning Roadmap">
+    <meta itemprop="description" content="A visual journey of my growth as a software engineer — across systems, AI, and deployment.">
     
     
 
     <section class="page__content" itemprop="text">
-      <style>
-  .project-card {
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-    margin: 1rem auto;
-    padding: 1.25rem;
-    background: white;
-    transition: 0.3s;
-    cursor: pointer;
-    max-width: 800px;
+      <!-- Timeline Style -->
+<style>
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 0;
   }
-  .project-card:hover {
-    background: #f0f8ff;
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #007acc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
   }
-  .project-details {
-    display: none;
-    margin-top: 0.75rem;
-    font-size: 0.95rem;
+  .timeline-entry {
+    padding: 1rem 2rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
   }
-  .project-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
+  .timeline-entry.left {
+    left: 0;
   }
-  .project-tech {
-    font-size: 0.9rem;
-    color: #fff;
+  .timeline-entry.right {
+    left: 50%;
+  }
+  .timeline-entry::after {
+    content: ' ';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: white;
+    border: 4px solid #007acc;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .timeline-entry.right::after {
+    left: -13px;
+  }
+  .timeline-content {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
   @media (prefers-color-scheme: dark) {
-    .project-card { background: #222; color: #eee; }
-    .project-card:hover { background:rgb(0, 0, 0); }
+    .timeline::after { background-color: #66ccff; }
+    .timeline-content { background-color: #222; color: #e0e0e0; }
   }
 </style>
 
-<script>
-  function toggleDetails(id) {
-    const details = document.getElementById(id);
-    details.style.display = details.style.display === 'block' ? 'none' : 'block';
-  }
-</script>
+<div class="timeline">
 
-<div class="project-card" onclick="toggleDetails('backtester')">
-  <div class="project-title">💹 Algorithmic Trading Backtester</div>
-  <div class="project-tech">Python · NumPy · Streamlit · Monte Carlo</div>
-  <div id="backtester" class="project-details">
-    Modular engine for backtesting trading strategies with performance metrics, VaR/CVaR analysis, and visual analytics dashboard.
-    <br /><a href="https://github.com/DivSeth/Strategy-Backtester" target="_blank">🔗 View on GitHub</a>
+  <div class="timeline-entry left">
+    <div class="timeline-content">
+      <h3>🔍 Algorithms &amp; DSA</h3>
+      <p>Mastering Leetcode patterns, competitive programming, and TypeScript fundamentals.</p>
+    </div>
   </div>
-</div>
 
-<div class="project-card" onclick="toggleDetails('ragbot')">
-  <div class="project-title">📄 Financial RAG Summarizer</div>
-  <div class="project-tech">LangChain · Milvus · Llama 3.2 · Streamlit</div>
-  <div id="ragbot" class="project-details">
-    Local chatbot for financial PDFs using retrieval-augmented generation with fast semantic search and multi-turn Q&amp;A.
-    <br /><a href="https://github.com/DivSeth/RAGTrader-FInancial-RAG-Chatbot" target="_blank">🔗 View on GitHub</a>
+  <div class="timeline-entry right">
+    <div class="timeline-content">
+      <h3>🧰 Backend Systems</h3>
+      <p>Building RESTful apps with Node.js, Redis, PostgreSQL, and message queues like Kafka.</p>
+    </div>
   </div>
-</div>
 
-<div class="project-card" onclick="toggleDetails('financeviz')">
-  <div class="project-title">📊 Personal Finance Visualizer</div>
-  <div class="project-tech">Python · Pandas · Streamlit · Matplotlib</div>
-  <div id="financeviz" class="project-details">
-    Parses and visualizes personal income/spending data with dynamic charts, category tracking, and downloadable summaries.
-    <br /><a href="https://github.com/DivSeth/personal-finance-visualiser-DivyaanshSeth" target="_blank">🔗 View on GitHub</a>
+  <div class="timeline-entry left">
+    <div class="timeline-content">
+      <h3>🐳 DevOps &amp; Deployment</h3>
+      <p>Learning Docker, Kubernetes, GitHub Actions, and deploying microservices to GCP.</p>
+    </div>
   </div>
+
+  <div class="timeline-entry right">
+    <div class="timeline-content">
+      <h3>🤖 AI/ML Engineering</h3>
+      <p>Working with LangChain, FAISS, Milvus, fine-tuned LLMs, and scalable RAG systems.</p>
+    </div>
+  </div>
+
+  <div class="timeline-entry left">
+    <div class="timeline-content">
+      <h3>🎨 Frontend &amp; UX</h3>
+      <p>Refining React, Tailwind, Figma and motion design with Framer Motion for interactive UIs.</p>
+    </div>
+  </div>
+
+  <div class="timeline-entry right">
+    <div class="timeline-content">
+      <h3>📈 Long-Term Vision</h3>
+      <p>Ship polished projects, publish technical blogs, and land a high-impact SWE/ML internship by 2026.</p>
+    </div>
+  </div>
+
 </div>
 
 <p style="text-align:center; margin-top:2rem;">
-  ✨ Click on a project to expand details and explore more on <a href="https://github.com/DivSeth" target="_blank">GitHub</a>
+  👉 Follow my journey on <a href="https://github.com/DivSeth" target="_blank">GitHub</a> or <a href="https://linkedin.com/in/divyaanshseth" target="_blank">LinkedIn</a>
 </p>
 
     </section>

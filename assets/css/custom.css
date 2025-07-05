@@ -71,16 +71,3 @@
     filter: brightness(0) saturate(100%);
     /* If you need it slightly smaller or larger, adjust width/height accordingly */
   }
-
-  /* Force the avatar <img> to be larger than the default 110px */
-    .author__avatar img {
-        max-width: 200px;    /* set this to whatever final size you want */
-        height: auto;        /* maintain aspect ratio */
-    }
-    
-    /* If you find on very small/mobile screens it’s still too tiny,
-        you can override the parent container’s 36×36 constraint: */
-    .author__avatar {
-        width: auto !important;
-        height: auto !important;
-    }

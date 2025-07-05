@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Projects - Divyaansh Seth</title>
-<meta name="description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
+<!-- begin _includes/seo.html --><title>Work Experience - Divyaansh Seth</title>
+<meta name="description" content="A clickable and concise view of my internship, research, and leadership experiences.">
 
 
   <meta name="author" content="Divyaansh Seth">
@@ -21,18 +21,15 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Divyaansh Seth">
-<meta property="og:title" content="Projects">
-<meta property="og:url" content="http://localhost:4000/projects/">
+<meta property="og:title" content="Work Experience">
+<meta property="og:url" content="http://localhost:4000/work/">
 
 
-  <meta property="og:description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/tech-bg.jpg">
+  <meta property="og:description" content="A clickable and concise view of my internship, research, and leadership experiences.">
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/experience-bg.jpg">
 
 
 
@@ -40,7 +37,10 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/projects/">
+
+
+
+<link rel="canonical" href="http://localhost:4000/work/">
 
 
 
@@ -148,18 +148,18 @@
 
 
 <div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/tech-bg.jpg');"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/experience-bg.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Projects
+          Work Experience
 
         
       </h1>
       
-        <p class="page__lead">Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.
+        <p class="page__lead">A clickable and concise view of my internship, research, and leadership experiences.
 </p>
       
       
@@ -168,7 +168,7 @@
       
         <p>
         
-          <a href="https://github.com/DivSeth" class="btn btn--light-outline btn--large">View GitHub</a>
+          <a href="https://linkedin.com/in/divyaanshseth" class="btn btn--light-outline btn--large">View LinkedIn</a>
         
         </p>
       
@@ -181,14 +181,14 @@
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Projects">
-    <meta itemprop="description" content="Showcasing hands-on experience in algorithmic trading, generative AI, and financial technology.">
+    <meta itemprop="headline" content="Work Experience">
+    <meta itemprop="description" content="A clickable and concise view of my internship, research, and leadership experiences.">
     
     
 
     <section class="page__content" itemprop="text">
       <style>
-  .project-card {
+  .work-card {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
     margin: 1rem auto;
@@ -196,28 +196,28 @@
     background: white;
     transition: 0.3s;
     cursor: pointer;
-    max-width: 800px;
+    max-width: 850px;
   }
-  .project-card:hover {
+  .work-card:hover {
     background: #f0f8ff;
   }
-  .project-details {
+  .work-details {
     display: none;
     margin-top: 0.75rem;
     font-size: 0.95rem;
   }
-  .project-title {
+  .work-title {
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 0.25rem;
   }
-  .project-tech {
+  .work-meta {
     font-size: 0.9rem;
     color: #fff;
   }
   @media (prefers-color-scheme: dark) {
-    .project-card { background: #222; color: #eee; }
-    .project-card:hover { background:rgb(0, 0, 0); }
+    .work-card { background: #222; color: #eee; }
+    .work-card:hover { background:rgb(0, 0, 0); }
   }
 </style>
 
@@ -228,35 +228,56 @@
   }
 </script>
 
-<div class="project-card" onclick="toggleDetails('backtester')">
-  <div class="project-title">💹 Algorithmic Trading Backtester</div>
-  <div class="project-tech">Python · NumPy · Streamlit · Monte Carlo</div>
-  <div id="backtester" class="project-details">
-    Modular engine for backtesting trading strategies with performance metrics, VaR/CVaR analysis, and visual analytics dashboard.
-    <br /><a href="https://github.com/DivSeth/Strategy-Backtester" target="_blank">🔗 View on GitHub</a>
+<div class="work-card" onclick="toggleDetails('nic')">
+  <div class="work-title">🧠 National Informatics Centre (NIC) – AI Intern</div>
+  <div class="work-meta">June 2025 – Present · Government of India</div>
+  <div id="nic" class="work-details">
+    Supporting the transition of India’s VANI virtual assistant from Dialogflow to a national-scale RAG (Retrieval-Augmented Generation) pipeline. Built ingestion and inference modules to process multi-lingual, multimodal data across 150+ schemes. Developed vector search and LLM interfaces for fast, hallucination-resistant responses. Deployed and monitored infrastructure on DGX A100 with sub-200ms latency and improved precision from 65% → 85%.
   </div>
 </div>
 
-<div class="project-card" onclick="toggleDetails('ragbot')">
-  <div class="project-title">📄 Financial RAG Summarizer</div>
-  <div class="project-tech">LangChain · Milvus · Llama 3.2 · Streamlit</div>
-  <div id="ragbot" class="project-details">
-    Local chatbot for financial PDFs using retrieval-augmented generation with fast semantic search and multi-turn Q&amp;A.
-    <br /><a href="https://github.com/DivSeth/RAGTrader-FInancial-RAG-Chatbot" target="_blank">🔗 View on GitHub</a>
+<div class="work-card" onclick="toggleDetails('deloitte')">
+  <div class="work-title">🏥 Deloitte India – Statistical Modeling Intern</div>
+  <div class="work-meta">July 2025 – Present · Healthcare Analytics</div>
+  <div id="deloitte" class="work-details">
+    Working on risk models for TBM patients with hydrocephalus. Compared patient recovery scoring systems using ROC. Automated testing and analysis in Python. Visualizing trends and conducting checks to predict efficiency of metrics in identifying patient recovery periods.
   </div>
 </div>
 
-<div class="project-card" onclick="toggleDetails('financeviz')">
-  <div class="project-title">📊 Personal Finance Visualizer</div>
-  <div class="project-tech">Python · Pandas · Streamlit · Matplotlib</div>
-  <div id="financeviz" class="project-details">
-    Parses and visualizes personal income/spending data with dynamic charts, category tracking, and downloadable summaries.
-    <br /><a href="https://github.com/DivSeth/personal-finance-visualiser-DivyaanshSeth" target="_blank">🔗 View on GitHub</a>
+<div class="work-card" onclick="toggleDetails('gt')">
+  <div class="work-title">📊 Grant Thornton – Data Analytics Intern</div>
+  <div class="work-meta">June 2024 – Aug 2024 · Public Policy Consulting</div>
+  <div id="gt" class="work-details">
+    Forecasted India’s MPI through 2047 using ARIMA, CAGR, and optimization techniques. Designed Scheme Performance Index to guide budget shifts and policy prioritization. Delivered strategy insights to senior GT leaders with high-impact modeling charts and recommendations.
+  </div>
+</div>
+
+<div class="work-card" onclick="toggleDetails('build')">
+  <div class="work-title">💼 BUILD UMass – Product Manager</div>
+  <div class="work-meta">Sep 2023 – May 2024 · Technical Consulting for Nonprofits</div>
+  <div id="build" class="work-details">
+    As Product Manager, led an 8-member team in designing and launching a fundraising platform for the Amherst Education Foundation. Managed sprints, created Figma wireframes. Drove campaign features that raised $25,000+ for public schools in Western MA.
+  </div>
+</div>
+
+<div class="work-card" onclick="toggleDetails('ashoka')">
+  <div class="work-title">🧪 Ashoka University – Data Science Intern</div>
+  <div class="work-meta">Oct 2022 – Apr 2023 · BharatSim Research</div>
+  <div id="ashoka" class="work-details">
+    Assisted in simulating realistic population behavior using real census inputs and randomized mobility parameters. Validated models against benchmark historical data and refined correlation weights between age, income, and migration patterns.
+  </div>
+</div>
+
+<div class="work-card" onclick="toggleDetails('expressify')">
+  <div class="work-title">🚀 Expressify – Co-founder &amp; NLP Developer</div>
+  <div class="work-meta">Feb 2021 – Nov 2022 · Startup Project</div>
+  <div id="expressify" class="work-details">
+    Built an AI-powered web platform with real-time pronunciation and grammar feedback for non-native English speakers. Developed core backend APIs with Flask and deployed to AWS using Docker. Ranked Top 28 globally in YTBC and won Toycathon.
   </div>
 </div>
 
 <p style="text-align:center; margin-top:2rem;">
-  ✨ Click on a project to expand details and explore more on <a href="https://github.com/DivSeth" target="_blank">GitHub</a>
+  ✨ Click on an experience to expand details and explore more on <a href="https://linkedin.com/in/divyaanshseth" target="_blank">LinkedIn</a>
 </p>
 
     </section>
